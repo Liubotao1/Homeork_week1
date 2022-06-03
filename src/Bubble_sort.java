@@ -28,7 +28,7 @@ public class Bubble_sort {
 
         //输出顺序字符串
         String b = String.copyValueOf(ch); // 将数组转换为字符串
-        System.out.println(b);
+        System.out.println("有序字符串：" +b);
 
         //输出顺序字符串的ASCII码
         int[] ascii = new int[length];
